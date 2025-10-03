@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import "./Simulation.css";
 
-const API_URL = "http://localhost:8000";
+const API_URL = "https://my-q4b1.onrender.com";
 
 export default function Simulation() {
     const [steps, setSteps] = useState([]);
@@ -395,3 +395,4 @@ export default function Simulation() {
         </div>
     );
 }
+
